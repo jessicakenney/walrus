@@ -8,3 +8,23 @@
 .clickable:hover {
   text-decoration: underline;
 }
+#first1 {
+  display:none;
+}
+#second1 {
+  display: none;
+}
+
+.fwclickable {
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  border: 4px solid red;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+body {
+  /*background: linear-gradient(red,white,blue);*/
+}

@@ -1,6 +1,12 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#initially-showing").toggle();
-    $("#initially-hiding").toggle();
-  });
+    $("#initially-showing").slideToggle();
+    $("#initially-hiding").slideToggle();
+    });
+  $(".fwclickable").click(function() {
+    $("#first").toggle();
+    $("#first1").toggle();
+    $("#second").toggle();
+    $("#second1").toggle();
+    });
 });
